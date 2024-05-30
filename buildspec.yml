@@ -3,6 +3,6 @@ version: 0.2
 phases:
   build:
     commands:
-      - docker build -t git.systementor.se/242magnusson.philip/philip123
+      - docker build -t git.systementor.se/242magnusson.philip/philip123 .
       - docker login -u 242Magnusson.Philip -p yacloud1 https://git.systementor.se
       - docker push git.systementor.se/242magnusson.philip/philip123
