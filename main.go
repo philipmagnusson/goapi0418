@@ -76,7 +76,7 @@ func apiEmployeeDeleteById(c *gin.Context) {
 }
 
 func handleStartPage(c *gin.Context) {
-	c.Data(http.StatusOK, "text/html; charset=utf-8", []byte("<html><body><h1>Hej hopp</h1><ul><li>Test</li><li>Bla</li></ul></body></html>"))
+	c.Data(http.StatusOK, "text/html; charset=utf-8", []byte("<html><body><h1>hejsan hopp</h1><ul><li>Test</li><li>Bla</li></ul></body></html>"))
 }
 
 // hej
